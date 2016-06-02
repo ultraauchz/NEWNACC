@@ -13,12 +13,9 @@
 						<div class="row">
 							<div class="col-sm-4">
 								<label for="search">เลขประจำตัวผู้เสียภาษี/เลขประจำตัวประชาชน</label>
-								<input type="text" class="form-control">
+								<input type="text" class="form-control" placeholder="เลขประจำตัวผู้เสียภาษี/เลขประจำตัวประชาชน">
 							</div>
-						</div>
-						<div class="space space-8"></div>
-						<div class="row">
-							<div class="col-sm-12">
+							<div class="col-sm-4">
 								<label for="search">ชื่อคู่สัญญา</label>
 								<input type="text" name="search" value="" placeholder="ชื่อคู่สัญญา" class="form-control">
 							</div>
@@ -26,7 +23,7 @@
 						<div class="space space-8"></div>
 						<div class="row">
 							<div class="col-sm-4">
-								<label for="search">วันที่ออกหนังสือ</label>
+								<label for="search">วันที่ออกหนังสือเพื่อขออนุมัติ</label>
 								<div class="input-group">
 									<span class="input-group-addon">ระหว่าง</span>
 									<input type="text" name="start_date" value="" placeholder="" class="form-control number">
@@ -37,7 +34,11 @@
 								</div>
 							</div>
 							<div class="col-sm-4">
-								<label for="search">วันที่ออกหนังสือเพื่อขออนุมัติ</label>
+								<label for="search">เลขที่หนังสือ</label>
+								<input type="text" name="search" value="" placeholder="เลขที่หนังสือ" class="form-control">
+							</div>
+							<div class="col-sm-4">
+								<label for="search">วันที่ออกหนังสือ</label>
 								<div class="input-group">
 									<span class="input-group-addon">ระหว่าง</span>
 									<input type="text" name="start_date" value="" placeholder="" class="form-control number">
@@ -174,7 +175,7 @@
 							</button>
 
 							<ul class="dropdown-menu dropdown-default">
-								<li><a href="warn_letter/letter" target="_blank">หนังสือขอให้ชี้แจงข้อเท็จจริงฯ</a></li>								
+								<li><a href="warn_letter/letter" target="_blank">หนังสือขอให้ชี้แจงข้อเท็จจริงฯ</a></li>
 								<li><a href="warn_letter/contract_table" target="_blank">ตารางแสดงโครงการ</a></li>
 							</ul>
 						</div>

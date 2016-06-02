@@ -85,7 +85,7 @@
 
 				<b class="arrow"></b>
 
-				<ul class="submenu">
+				<ul class="submenu" style="width:300px;">
 					<li class="hover">
 						<a href="check_incomes"> <i class="menu-icon fa fa-caret-right"></i>ตรวจสอบบัญชีรายรับรายจ่าย </a>
 
@@ -100,18 +100,20 @@
 						<b class="arrow"></b>
 					</li>
 					<li class="hover">
-						<a href="warn_letter"> <i class="menu-icon fa fa-caret-right"></i> ข้อมูลการออกหนังสือขอชี้แจง
+						<a href="warn_letter"> <i class="menu-icon fa fa-caret-right"></i> ข้อมูลการออกหนังสือขอชี้แจงข้อเท็จจริง
 						<br>
-						ข้อเท็จจริงการไม่ยื่นแบบแสดงบัญชีรายรับรายจ่ายของโครงการ </a>
+						การไม่ยื่นแบบแสดงบัญชีรายรับรายจ่ายของโครงการ </a>
 
 						<b class="arrow"></b>
 					</li>
 
 					<li class="hover">
-						<a href="blacklists"> <i class="menu-icon fa fa-caret-right"></i> ข้อมูลการขึ้น - ปลด
-						<br>
-						แบล้คลิสต์คู่สัญญา </a>
+						<a href="blacklists"> <i class="menu-icon fa fa-caret-right"></i> ข้อมูลการขึ้นทะเบียนแบล้คลิสต์</a>
+						<b class="arrow"></b>
+					</li>
 
+					<li class="hover">
+						<a href="unblacklists"> <i class="menu-icon fa fa-caret-right"></i> ข้อมูลการปลดทะเบียนแบล้คลิสต์</a>
 						<b class="arrow"></b>
 					</li>
 				</ul>

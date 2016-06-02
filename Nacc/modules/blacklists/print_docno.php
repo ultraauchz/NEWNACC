@@ -41,7 +41,10 @@
 <div class="space space-8"></div>
 <?php if(@$_GET):
 ?>
-<div id="dynamic-table_wrapper" class="dataTables_wrapper form-inline no-footer" style="overflow-y:scroll;overflow-x:none;">
+<a href="blacklist_letter_preview_copy" target="_blank" class="btn btn-primary"><i class="fa fa-print"></i>พิมพ์สำเนาคู่ฉบับ</a>
+<a href="blacklist_table_print" target="_blank" class="btn btn-primary"><i class="fa fa-print"></i>พิมพ์ตารางรายชื่อแนบ</a>
+<div class="clearfix"></div>
+<div id="dynamic-table_wrapper" class="dataTables_wrapper form-inline no-footer" >
 	<div class="row">
 		<div class="col-xs-6">
 			<div class="dataTables_info" id="dynamic-table_info" role="status" aria-live="polite">
@@ -53,9 +56,8 @@
 		<table class="table table-striped table-bordered table-hover">
 			<thead>
 				<tr role="row">
+					<th width="50"></th>
 					<th class="center sorting_disabled " rowspan="1" colspan="1">ลำดับ</th>
-					<td class="">เลขที่คำสั่ง</td>
-					<td class="">วันที่ออกคำสั่ง</td>
 					<th>เลขประจำตัวผู้เสียภาษี</th>
 					<th >คู่สัญญา</th>
 					<td class="">วันที่ออกหนังสือเพื่อขออนุมัติ</td>
@@ -64,34 +66,64 @@
 
 			<tbody>
 				<tr role="row" class="odd">
+					<td nowrap="nowrap">
+					<div class="action-buttons">
+						<div class="btn-group">
+							<button data-toggle="dropdown" class="dropdown-toggle" aria-expanded="false">
+								<i class="ace-icon fa fa-print bigger-130"></i>
+								<span class="ace-icon fa fa-caret-down icon-on-right"></span>
+							</button>
+
+							<ul class="dropdown-menu dropdown-default">
+								<li><a href="blacklist_letter_preview" target="_blank">หนังสือขออนุมัติการขึ้นแบล็กลิสต์</a></li>
+								<li><a href="warn_contract_table" target="_blank">ตารางแสดงโครงการ</a></li>
+							</ul>
+						</div>
+					</div>
+					</td>
 					<td class="center " >1</td>
-					<td><input type="text" class="form-control"></td>
-					<td><div class="input-group">
-						<input type="text" name="doc_date" value="" placeholder="" class="form-control number">
-						<span class="input-group-addon"><i class="fa fa-calendar"></i></span>
-					</div></td>
 					<td class="">1516478489356</td>
 					<td class="">บริษัท AAA จำกัด (มหาชน) </td>
 					<td>20/01/2559</td>
 				</tr>
 				<tr role="row" class="odd">
+					<td nowrap="nowrap">
+					<div class="action-buttons">
+						<div class="btn-group">
+							<button data-toggle="dropdown" class="dropdown-toggle" aria-expanded="false">
+								<i class="ace-icon fa fa-print bigger-130"></i>
+								<span class="ace-icon fa fa-caret-down icon-on-right"></span>
+							</button>
+
+							<ul class="dropdown-menu dropdown-default">
+								<li><a href="warn_letter_preview" target="_blank">หนังสือขอให้ชี้แจงข้อเท็จจริงฯ</a></li>
+								<li><a href="warn_contract_table" target="_blank">ตารางแสดงโครงการ</a></li>
+							</ul>
+						</div>
+					</div>
+					</td>
 					<td class="center " >2</td>
-					<td><input type="text" class="form-control"></td>
-					<td><div class="input-group">
-						<input type="text" name="doc_date" value="" placeholder="" class="form-control number">
-						<span class="input-group-addon"><i class="fa fa-calendar"></i></span>
-					</div></td>
 					<td class="">2424241515112</td>
 					<td class="">บริษัท BBB จำกัด (มหาชน) </td>
 					<td>20/01/2559</td>
 				</tr>
 				<tr role="row" class="odd">
+					<td nowrap="nowrap">
+					<div class="action-buttons">
+						<div class="btn-group">
+							<button data-toggle="dropdown" class="dropdown-toggle" aria-expanded="false">
+								<i class="ace-icon fa fa-print bigger-130"></i>
+								<span class="ace-icon fa fa-caret-down icon-on-right"></span>
+							</button>
+
+							<ul class="dropdown-menu dropdown-default">
+								<li><a href="warn_letter_preview" target="_blank">หนังสือขอให้ชี้แจงข้อเท็จจริงฯ</a></li>
+								<li><a href="warn_contract_table" target="_blank">ตารางแสดงโครงการ</a></li>
+							</ul>
+						</div>
+					</div>
+					</td>
 					<td class="center " >3</td>
-					<td><input type="text" class="form-control"></td>
-					<td><div class="input-group">
-						<input type="text" name="doc_date" value="" placeholder="" class="form-control number">
-						<span class="input-group-addon"><i class="fa fa-calendar"></i></span>
-					</div></td>
 					<td class="">1345684578903</td>
 					<td class="">บริษัท CCC จำกัด (มหาชน) </td>
 					<td>20/01/2559</td>
@@ -100,21 +132,4 @@
 		</table>
 	</div>
 </div>
-<div class="clearfix form-actions">
-	<label class="col-sm-3"></label>
-	<div class="col-md-offset-3 col-md-9">
-		<button class="btn btn-info" type="submit">
-			<i class="ace-icon fa fa-check bigger-110"></i>
-			บันทึก
-		</button>
-
-		&nbsp; &nbsp; &nbsp;
-		<a href="<?php echo $current_page;?>">
-		<button class="btn" type="button">
-			<i class="ace-icon fa fa-undo bigger-110"></i>
-			ย้อนกลับ
-		</button> </a>
-	</div>
-</div>
-<?php endif; ?>
-<div class="space space-8"></div>
+<?php endif;?>

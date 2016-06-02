@@ -38,7 +38,7 @@
 								</div>
 							</div>
 							<div class="col-sm-6">
-								<label for="search">วันที่ออกคำสั่งให้ขึ้นแบล้คลิสต์</label>
+								<label for="search">วันที่ออกคำสั่งให้ปลดแบล้คลิสต์</label>
 								<div class="input-group">
 									<span class="input-group-addon">ระหว่าง</span>
 									<input type="text" name="start_date" value="" placeholder="เริ่ม e.g. 01/01/2559" class="form-control number">
@@ -69,16 +69,7 @@
 	<div class="col-sm-12">
 		<a href="<?php echo $current_page; ?>?mode=new">
 		<button name="submit" class="btn btn-primary">
-			<i class="fa fa-plus-square fa-plus-square-o"></i> เพิ่มข้อมูลการขึ้นทะเบียน BlackList
-		</button> </a>
-		<a href="<?php echo $current_page; ?>?mode=input_docno">
-		<button name="button" class="btn btn-primary">
-			<i class="fa fa-pencil"></i> บันทึกเลขที่คำสั่ง
-		</button> </a>
-
-		<a href="<?php echo $current_page; ?>?mode=print_docno">
-		<button name="button" class="btn btn-primary">
-			<i class="fa fa-print"></i> พิมพ์สำเนาคู่ฉบับและใบรายชื่อแนบ
+			<i class="fa fa-plus-square fa-plus-square-o"></i> เพิ่มข้อมูลการปลดทะเบียน BlackList
 		</button> </a>
 	</div>
 </div>
@@ -119,40 +110,22 @@
 		<table class="table table-striped table-bordered table-hover">
 			<thead>
 				<tr role="row">
-					<th width="40"></th>
-					<th>ลำดับ</th>
+					<th class="center sorting_disabled " rowspan="1" colspan="1">ลำดับ</th>
 					<th>เลขประจำตัวผู้เสียภาษี</th>
 					<th >คู่สัญญา</th>
-					<th>วันที่ออกหนังสือเพื่อขออนุมัติ</th>
-					<th>วันที่ออกคำสั่ง</th>
-					<th>เลขที่คำสั่ง</th>
-					<th></th>
+					<th class="sorting_disabled " tabindex="0" aria-controls="dynamic-table" rowspan="1">สถานะการขึ้นแบล้คลิสต์</th>
+					<th class="sorting_disabled " tabindex="0" aria-controls="dynamic-table" rowspan="1">สถานะการการปลดแบล้คลิสต์</th>
+					<th class="sorting_disabled" rowspan="1" colspan="1" aria-label=""></th>
 				</tr>
 			</thead>
 
 			<tbody>
 				<tr role="row" class="odd">
-					<td nowrap="nowrap">
-					<div class="action-buttons">
-						<div class="btn-group">
-							<button data-toggle="dropdown" class="dropdown-toggle" aria-expanded="false">
-								<i class="ace-icon fa fa-print bigger-130"></i>
-								<span class="ace-icon fa fa-caret-down icon-on-right"></span>
-							</button>
-
-							<ul class="dropdown-menu dropdown-default">
-								<li><a href="blacklist_letter_preview" target="_blank">หนังสือขออนุมัติการขึ้นแบล็กลิสต์</a></li>
-								<li><a href="warn_contract_table" target="_blank">ตารางแสดงโครงการ</a></li>
-							</ul>
-						</div>
-					</div>
-					</td>
 					<td class="center " >1</td>
 					<td class="">4587963125469</td>
 					<td class="">บริษัท เอสวีโอเอ จำกัด (มหาชน) </td>
-					<td class="">03/04/2559</td>
-					<td class="">05/04/2559</td>
-					<td class=""></td>
+					<td class=""> ขึ้นทะเบียนแบล้คลิสต์ ณ วันที่ 03/04/2559 </td>
+					<td class=""> ปลดทะเบียนแบล้คลิสต์ ณ วันที่ 06/04/2559 </td>
 					<td nowrap="nowrap">
 					<div class="hidden-sm hidden-xs action-buttons">
 					<a class="blue" href="<?php echo $current_page;?>?mode=view"> <i class="ace-icon fa fa-search-plus bigger-130"></i> </a>

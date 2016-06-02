@@ -188,7 +188,7 @@
 <div class="space space-8"></div>
 <fieldset>
   <legend>
-    ข้อมูลการขึ้นทะเบียน Blacklist
+    ข้อมูลการปลดทะเบียน Blacklist
   </legend>
   <div class="form-group">
 		<div class="col-xs-6 col-sm-2 control-label no-padding-right">

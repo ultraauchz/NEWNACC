@@ -54,8 +54,8 @@
 			<thead>
 				<tr role="row">
 					<th class="center sorting_disabled " rowspan="1" colspan="1">ลำดับ</th>
-					<td class="">เลขที่คำสั่ง</td>
-					<td class="">วันที่ออกคำสั่ง</td>
+					<td class="">เลขที่หนังสือออก</td>
+					<td class="">วันที่ออกหนังสือ</td>
 					<th>เลขประจำตัวผู้เสียภาษี</th>
 					<th >คู่สัญญา</th>
 					<td class="">วันที่ออกหนังสือเพื่อขออนุมัติ</td>

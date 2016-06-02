@@ -1,5 +1,5 @@
 <?php
-$current_page = 'blacklists';
+$current_page = 'unblacklists';
 $current_menu = 'incomes';
 switch(@$_GET['mode']) {
     case 'view' :
@@ -62,7 +62,7 @@ switch(@$_GET['mode']) {
           -->
 					<div class="space space-4"></div>
 					<div class="page-header">
-						<h1> ข้อมูลการขึ้นทะเบียนแบล้คลิสต์คู่สัญญา
+						<h1> ข้อมูลการปลดทะเบียนแบล้คลิสต์คู่สัญญา
 						    <?php if(@$action!=''):?>
 						    <small> <i class="ace-icon fa fa-angle-double-right"></i> <?php echo $action; ?></small>
 						    <?php endif;?>
@@ -71,17 +71,11 @@ switch(@$_GET['mode']) {
 					<div class="row">
 						<div class="col-xs-12">
 							<!-- PAGE CONTENT BEGINS -->
-              <?php
+							<?php
                             switch(@$_GET['mode']) {
-                                case 'view' :
+                                case 'edit' :
                                     require_once 'modules/'.$current_page.'/form.php';
                                     break;
-                                case 'print_docno' :
-                                        require_once 'modules/'.$current_page.'/print_docno.php';
-                                        break;
-                                case 'input_docno' :
-                                        require_once 'modules/'.$current_page.'/input_docno.php';
-                                        break;
                                 case 'new' :
                                     require_once 'modules/'.$current_page.'/form.php';
                                     break;
