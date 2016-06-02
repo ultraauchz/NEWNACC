@@ -1,0 +1,190 @@
+<html><head>
+    <link rel="icon" href="images\favicon.ico">
+    <title>ระบบกำกับดูแลการจัดซื้อจัดจ้างภาครัฐ ศูนย์กำกับดูแลการจัดซื้อจัดจ้างภาครัฐ  สำนักงานคณะกรรมการป้องกันและปราบปรามการทุจริตแห่งชาติ</title>
+    <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+      <script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+      <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+      <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+      <link href="css/template.css" type="text/css" rel="stylesheet">
+      <link rel="stylesheet" href="css/smk-accordion.css">
+      <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+      <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+      <style>
+      #overlay {
+          background: rgba(235, 104, 65, 0.70);
+          text-align: center;
+          padding: 70px 0 0 0;
+          opacity: 0;
+          -webkit-transition: opacity .25s ease;
+          -moz-transition: opacity .25s ease;
+          width: 171px;
+          height: 171px;
+          border-radius: 100px;
+      }
+      </style>
+  </head>
+  <body>
+<div class="navbar navbar-default navbar-static-top" id="top">
+<div class="container">
+    <div class="navbar-header">
+      <div class="name">
+        <img src="images/logo.png" width="726" height="78" title="กฎหมายการพัฒนาสังคมและความมั่นคงของมนุษย์">
+      </div>
+    </div>
+    <div class="clearfix">&nbsp;</div>
+    <div id="topmenu">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-ex-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse" id="navbar-ex-collapse">
+          <ul class="nav navbar-nav navbar-right" id="topmenu" style="padding:0; margin:0;">
+            <li><a href="index.html" class="active-home">หน้าแรก</a></li>
+            <li><a href="#">ข่าวประชาสัมพันธ์</a></li>
+            <li class="dropdown"><a href="#">เข้าสู่ระบบ<i class="fa fa-angle-down"></i></a>
+              <ul role="menu" class="sub-menu">
+                <li><a href="#">สำหรับเจ้าหน้าที่หน่วยงานภาครัฐ</a></li>
+                <li><a href="#">สำหรับเจ้าหน้าที่สำนักงานป.ป.ช.</a></li>
+              </ul>
+            </li>
+            <li class="dropdown"><a href="#">บริการข้อมูล<i class="fa fa-angle-down"></i></a>
+              <ul role="menu" class="sub-menu">
+                <li><a href="standard_price">ข้อมูลราคากลาง</a></li>
+                <li><a href="#">ตรวจสอบเลขคุมสัญญา</a></li>
+                <li><a href="#">รายชื่อผู้ขาดคุณสมบัติ</a></li>
+                <li><a href="#">เว็บเซอร์วิส</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="clearfix">&nbsp;</div>
+
+    <div id="news-law">
+      <span class="title-law1">ข่าวประชาสัมพันธ์</span>
+      <div class="line1">&nbsp;</div>
+      <ul>
+        <li>
+          <span id="day-law1">
+            <span class="day">18</span>
+            <br>พ.ย.
+            <br>2558</span>
+          <span id="news-law1">
+            <a href="#">ระเบียบการเคหะแห่งชาติ ว่าด้วยวิธีปฏิบัติการจัดซื้อที่ดิน พ.ศ.2546</a>
+          </span>
+        </li>
+        <li>
+          <span id="day-law1">
+            <span class="day">18</span>
+            <br>พ.ย.
+            <br>2558</span>
+          <span id="news-law2">
+            <a href="#">ระเบียบการเคหะแห่งชาติ ว่าด้วยการจดทะเบียนผู้รับจ้างงานก่อสร้างของการเคหะแห่งชาติ พ.ศ.2544</a>
+          </span>
+        </li>
+        <li>
+          <span id="day-law1">
+            <span class="day">18</span>
+            <br>พ.ย.
+            <br>2558</span>
+          <span id="news-law1">
+            <a href="#">ระเบียบการเคหะแห่งชาติ ว่าด้วยการให้เช่า ให้เช่าซื้อ หรือซื้อ อาคาร ที่ดิน หรือที่ดินพร้อมสิ่งปลูกสร้าง พ.ศ.2543</a>
+          </span>
+        </li>
+        <li>
+          <span id="day-law1">
+            <span class="day">18</span>
+            <br>พ.ย.
+            <br>2558</span>
+          <span id="news-law2">
+            <a href="#">ระเบียบการเคหะแห่งชาติ ว่าด้วยการจัดระเบียบร้านค้า หาบเร่ แผงลอย ในเคหะชุมชน (ฉบับที่ 2) พ.ศ.2546</a>
+          </span>
+        </li>
+        <li>
+          <span id="day-law1">
+            <span class="day">18</span>
+            <br>พ.ย.
+            <br>2558</span>
+          <span id="news-law1">
+            <a href="#">ระเบียบการเคหะแห่งชาติ ว่าด้วยการจัดระเบียบร้านค้า หาบเร่ แผงลอยในเคหะชุมชน พ.ศ.2543</a>
+          </span>
+        </li>
+      </ul>
+    </div>
+    <div class="clearfix">&nbsp;</div>
+
+    <div class="banner" style="text-align:center;">
+      <ul>
+        <li><a href="#"><img src="images/banner02.jpg" width="300" height="113" style="border: 3px solid #463FA7;"></a></li>
+        <li><a href="#"><img src="images/banner01.jpg" width="300" height="113" style="border: 3px solid #463FA7;" /></a></li>
+      </ul>
+    </div>
+
+    <div id="cat-law">
+      <span class="title-law1">บริการข้อมูล</span>
+      <div class="line1">&nbsp;</div>
+     <div id="cat-laww" data-interval="false" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner" role="listbox">
+          <div class="item active" id="cate">
+            <ul>
+              <li class="cat1">
+
+                <a href="standard_price"><div id="overlay"> <span id="plus"><i class="fa fa-search fa-2x"></i></span> </div>&nbsp;<br><div class="text-cat">ข้อมูลราคากลาง</div></a>
+              </li>
+              <li class="cat2">
+                <a href="check_contract"><div id="overlay"> <span id="plus"><i class="fa fa-search fa-2x"></i></span> </div>&nbsp;<br><div class="text-cat">ตรวจสอบเลขคุมสัญญา</div></a>
+              </li>
+              <li class="cat3">
+                <a href="blacklists"><div id="overlay"> <span id="plus"><i class="fa fa-search fa-2x"></i></span> </div>&nbsp;<br><div class="text-cat">รายชื่อผู้ขาดคุณสมบัติ</div></a>
+              </li>
+              <li class="cat4">
+                <a href="webservices"><div id="overlay"> <span id="plus"><i class="fa fa-search fa-2x"></i></span> </div>&nbsp;<br><div class="text-cat">เว็บเซอร์วิส</div></a>
+              </li>
+            </ul>
+          </div>
+
+            <div class="item" id="cate">
+              <ul>
+                <li class="cat1">
+                  <a href="standard_price">&nbsp;<br><div class="text-cat">ข้อมูลราคากลาง</div></a>
+                </li>
+                <li class="cat2">
+                  <a href="check_contract">&nbsp;<br><div class="text-cat">ตรวจสอบเลขคุมสัญญา</div></a>
+                </li>
+                <li class="cat3">
+                  <a href="blacklists">&nbsp;<br><div class="text-cat">รายชื่อผู้ขาดคุณสมบัติ</div></a>
+                </li>
+                <li class="cat4">
+                  <a href="webservices">&nbsp;<br><div class="text-cat">เว็บเซอร์วิส</div></a>
+                </li>
+              </ul>
+          </div>
+
+        </div>
+        <!--<a class="left carousel-control" href="#cat-laww" data-slide="prev" id="arrow-left-cat"><i class="arrow-left"></i></a>
+        <a class="right carousel-control" href="#cat-laww" data-slide="next" id="arrow-right-cat"><i class="arrow-right"></i></a>-->
+      </div>
+    </div>
+    <div class="clearfix">&nbsp;</div>
+</div>
+      <div class="footer">
+      	   <div class="container">
+              	<div class="footer-left">
+                      <span class="title-footer">ระบบกำกับดูแลการจัดซื้อจัดจ้างภาครัฐ</span><br>
+                      ศูนย์กำกับดูแลการจัดซื้อจัดจ้างภาครัฐ สำนักงานคณะกรรมการป้องกันและปราบปรามการทุจริตแห่งชาติ<br>โทรศัพท์ : 0 2528 4800 ต่อ 4232, 4234 , อีเมล์ : <a href="mailto:nacc_egp@nacc.go.th" target="_blank">nacc_egp@nacc.go.th</a><br>
+                      ©ลิขสิทธิ์ 2559 ศูนย์กำกับดูแลการจัดซื้อจัดจ้างภาครัฐ  สำนักงานคณะกรรมการป้องกันและปราบปรามการทุจริตแห่งชาติ
+              	</div>
+                <div class="footer-right"></div>
+		        </div>
+      </div>
+</div>
+</body>
+</html>
