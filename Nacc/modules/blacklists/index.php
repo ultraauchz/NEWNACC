@@ -71,14 +71,13 @@
 		<button name="submit" class="btn btn-primary">
 			<i class="fa fa-plus-square fa-plus-square-o"></i> เพิ่มข้อมูลการขึ้นทะเบียน BlackList
 		</button> </a>
-		<a href="<?php echo $current_page; ?>?mode=input_docno">
-		<button name="button" class="btn btn-primary">
-			<i class="fa fa-pencil"></i> บันทึกเลขที่คำสั่ง
-		</button> </a>
-
 		<a href="<?php echo $current_page; ?>?mode=print_docno">
 		<button name="button" class="btn btn-primary">
 			<i class="fa fa-print"></i> พิมพ์สำเนาคู่ฉบับและใบรายชื่อแนบ
+		</button> </a>
+		<a href="<?php echo $current_page; ?>?mode=input_docno">
+		<button name="button" class="btn btn-primary">
+			<i class="fa fa-pencil"></i> บันทึกเลขที่คำสั่ง
 		</button> </a>
 	</div>
 </div>

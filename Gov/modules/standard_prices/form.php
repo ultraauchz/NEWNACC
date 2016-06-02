@@ -449,9 +449,11 @@
 					<li><input type="checkbox">สาขาปรัชญา</li>
 					<li><input type="checkbox">สาขานิติศาสตร์</li>
 					<li><input type="checkbox">สาขารัฐศาสตร์และรัฐประศาสนศาสตร์</li>
+					<li><input type="checkbox">สาขาเศรษฐศาสตร์</li>
 					<li><input type="checkbox">สาขาสังคมวิทยา</li>
 					<li><input type="checkbox">สาขาเทคโนโลยีสารสนเทศและนิเทศศาสตร์</li>
 					<li><input type="checkbox">สาขาการศึกษา</li>
+					<li><input type="checkbox">อื่น ๆ <input type="text" class="form-control" style="width:200px;display:inline;"></li>
 				</ul>
 			</div>
 		</div>
@@ -607,6 +609,20 @@
 			<div class="col-xs-12 col-sm-9 col-lg-5">
 				<textarea name="committee_list" class="form-control"></textarea>
 			</div>
+		</div>
+	</div>
+	<div class="form-group">
+		<label class="col-sm-3 control-label no-padding-right">เอกสารแนบอื่น ๆ</label>
+		<div class="col-sm-9">
+			<a name="btn_new_file" class="btn btn-sm btn-success"> เพิ่มรายการเอกสารแนบ </a>
+			<table style="margin-bottom:0px!important;" class="table table-striped table-bordered">
+				<tr>
+					<td width="30" valign="middle" align="center">1</td>
+					<td>
+					<input type="file" class="btn btn-sm" accept=".pdf,.zip">
+					</td>
+				</tr>
+			</table>
 		</div>
 	</div>
 	<div class="form-group">

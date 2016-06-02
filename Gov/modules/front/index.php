@@ -1,4 +1,3 @@
-<!--
 <fieldset>
 	<legend>ข้อมูลราคากลาง</legend>
 	<div class="col-sm-5">
@@ -16,22 +15,19 @@
 	</table>
 	</div>
 </fieldset>
-
+<br>
 <fieldset>
-	<legend>ข้อมูลการยื่นบัญชีรายรับรายจ่าย</legend>
+	<legend>ข้อมูลคู่สัญญา</legend>
 	<div class="col-sm-5">
 	<table class="table table-bordered">
 		<tr>
 			<td>จำนวนคู่สัญญาโครงการทั้งหมด</td>
-			<td>จำนวนคู่สัญญาโครงการที่ยื่นบัญชีรายรับรายจ่ายแล้ว</td>
-			<td>จำนวนคู่สัญญาโครงการที่ไม่ยื่นบัญชีรายรับรายจ่ายแล้ว</td>
+			<td>จำนวนคู่สัญญาโครงการที่ยังไม่บันทึกวันที่หมดภาระผูกพัน</td>
 		</tr>
 		<tr>
 			<td>4,400</td>
-			<td>4,300</td>
-			<td>100</td>
+			<td>1,000</td>
 		</tr>
 	</table>
 	</div>
 </fieldset>
--->

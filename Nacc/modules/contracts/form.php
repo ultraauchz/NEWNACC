@@ -212,7 +212,7 @@
 							</div>
 						</div>
 						<div class="col-xs-6 col-sm-2 control-label no-padding-right" >
-							วันที่ยกเลิกโครงการ :
+							วันที่ยกเลิกสัญญา :
 						</div>
 						<div class="col-xs-12 col-sm-2">
 							<div class="input-group">
@@ -245,7 +245,7 @@
 				<div class="col-xs-12 col-sm-12">
 					<div class="form-group">
 						<div class="col-xs-6 col-sm-2 control-label no-padding-right">
-							เลขที่คุมสัญญา :
+							เลขคุมสัญญา :
 						</div>
 						<div class="col-xs-6">
 

@@ -35,7 +35,7 @@
 							    <div class="login_header" style="font-size:23px!important;" >สำนักงานคณะกรรมการป้องกันและปราบปรามการทุจริตแห่งชาติ</div>
 							    <div class="login_header_sub">
 										ระบบกำกับดูแลการจัดซื้อจัดจ้างภาครัฐ  Government Procurement System<br>
-										***สำหรับเจ้าหน้าภาครัฐ***
+										***สำหรับเจ้าหน้าที่หน่วยงานภาครัฐ***
 									</div>
 						</div>
 					</div>

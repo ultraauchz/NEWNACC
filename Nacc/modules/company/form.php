@@ -3,257 +3,8 @@
 		<div class="col-sm-12">
 			<fieldset>
 				<legend>
-					ข้อมูลสัญญา
-				</legend>
-				<div class="col-xs-12 col-sm-12">
-					<div class="form-group">
-						<div class="col-xs-6 col-sm-2 control-label no-padding-right">
-							เลขคุมสัญญา<span class="red">*</span> :
-						</div>
-						<div class="col-xs-6 col-sm-2">
-							<input type="text" class="form-control" value="31/2558">
-						</div>
-					</div>
-				</div>
-				<div class="clearfix"></div>
-				<div class="col-xs-12 col-sm-12">
-					<div class="form-group">
-						<div class="col-xs-6 col-sm-2 control-label no-padding-right">
-							ประเภทสัญญาหลัก<span class="red">*</span> :
-						</div>
-						<div class="col-xs-6">
-							<select class="select2">
-								<option value="">--กรุณาระบุ--</option>
-								<option value="" selected="selected">สัญญาที่เกี่ยวกับการจัดหาพัสดุหรือการพัสดุ</option>
-								<option value="">สัญญาสัมปทาน</option>
-								<option value="">สัญญาให้ทุนสนับสนุนเพื่อการวิจัย</option>
-								<option value="">สัญญาให้ทุนสนับสนุนเพื่อดำเนินกิจกรรมอย่างใดอย่างหนึ่ง</option>
-							</select>
-						</div>
-					</div>
-				</div>
-				<div class="clearfix"></div>
-				<div class="col-xs-12 col-sm-12">
-					<div class="form-group">
-						<div class="col-xs-6 col-sm-2 control-label no-padding-right">
-							ประเภทสัญญาย่อย :
-						</div>
-						<div class="col-xs-6">
-							<select class="select2">
-								<option value="">--กรุณาระบุ--</option>
-							</select>
-						</div>
-					</div>
-				</div>
-				<div class="clearfix"></div>
-				<div class="col-xs-12 col-sm-12">
-				<div class="form-group">
-					<div class="col-xs-6 col-sm-2 control-label no-padding-right">
-						โครงการ<span class="red">*</span> :
-					</div>
-					<div class="col-sm-9">
-						<a href="#modal-form" role="button" class="btn btn-sm btn-default" data-toggle="modal"><i class="fa fa-search"></i> เลือกโครงการ </a>
-						<textarea name="project_name" class="form-control" disabled="disabled" readonly="readonly">โครงการปรับปรุงระบบสำรองข้อมูลเชื่อมโยงหน่วยงานในสังกัดกระทรวงการคลัง แขวงสามเสนใน เขตพญาไท จังหวัดกรุงเทพมหานคร</textarea>
-					</div>
-				</div>
-				</div>
-				<div class="col-xs-12 col-sm-12">
-					<div class="form-group">
-						<div class="col-xs-6 col-sm-2 control-label no-padding-right">
-							หน่วยงานเจ้าของโครงการ :
-						</div>
-						<div class="col-xs-12 col-sm-9">
-							<input type="text" class="form-control" disabled="disabled" readonly="readonly" value="สำนักบริหารงานกลาง สำนักงานปลัดกระทรวงการคลัง กระทรวงการคลัง">
-						</div>
-					</div>
-				</div>
-				<div class="col-xs-12 col-sm-12">
-				<div class="form-group">
-					<div class="col-xs-6 col-sm-2 control-label no-padding-right">
-						ชื่อสัญญา<span class="red">*</span> :
-					</div>
-					<div class="col-sm-9">
-						<textarea name="project_name" class="form-control" >ซื้อขายครุภัณฑ์สำหรับปรับปรุงระบบสำรองข้อมูลเชื่อมโยงหน่วยงานในสังกัดกระทรวงการคลัง</textarea>
-					</div>
-				</div>
-			  </div>
-				<div class="clearfix"></div>
-				<div class="col-xs-12 col-sm-12">
-					<div class="form-group">
-						<div class="col-xs-6 col-sm-2 control-label no-padding-right">
-							วันที่ลงนามในสัญญา<span class="red">*</span> :
-						</div>
-						<div class="col-xs-12 col-sm-2">
-							<div class="input-group">
-								<input type="text" class="form-control" data-provide="datepicker" data-date-language="th-th" value="01/10/2558">
-								<span class="input-group-addon"><i class="fa fa-calendar"></i></span>
-							</div>
-						</div>
-						<div class="col-xs-6 col-sm-2 control-label no-padding-right" style="width:100px;">
-							วันที่เริ่มทำงาน :
-						</div>
-						<div class="col-xs-12 col-sm-2">
-							<div class="input-group">
-								<input type="text" class="form-control" data-provide="datepicker" data-date-language="th-th" value="30/09/2559">
-								<span class="input-group-addon"><i class="fa fa-calendar"></i></span>
-							</div>
-						</div>
-						<div class="col-xs-6 col-sm-2 control-label no-padding-right"  style="width:100px;">
-							วันที่สิ้นสุด :
-						</div>
-						<div class="col-xs-12 col-sm-2">
-							<div class="input-group">
-								<input type="text" class="form-control" data-provide="datepicker" data-date-language="th-th" value="30/09/2559">
-								<span class="input-group-addon"><i class="fa fa-calendar"></i></span>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="clearfix"></div>
-				<div class="col-xs-12 col-sm-12">
-					<div class="form-group">
-						<div class="col-xs-6 col-sm-2 control-label no-padding-right">
-							อายุสัญญา<span class="red">*</span> :
-						</div>
-						<div class="col-xs-12 col-sm-4">
-							<div class="input-group">
-								<input type="text" class="form-control right number" value="1">
-								<span class="input-group-addon">ปี</span>
-								<input type="text" class="form-control right number">
-								<span class="input-group-addon">เดือน</span>
-								<input type="text" class="form-control right number">
-								<span class="input-group-addon">วัน</span>
-							</div>
-						</div>
-
-					</div>
-				</div>
-				<div class="clearfix"></div>
-				<div class="col-xs-12 col-sm-12">
-					<div class="form-group">
-						<div class="col-xs-6 col-sm-2 control-label no-padding-right">
-							ระยะเวลารับประกันผลงาน :
-						</div>
-						<div class="col-xs-12 col-sm-4">
-							<div class="input-group">
-								<input type="text" class="form-control right number" value="1">
-								<span class="input-group-addon">ปี</span>
-								<input type="text" class="form-control right number">
-								<span class="input-group-addon">เดือน</span>
-								<input type="text" class="form-control right number">
-								<span class="input-group-addon">วัน</span>
-							</div>
-						</div>
-
-					</div>
-				</div>
-				<div class="clearfix"></div>
-				<div class="col-xs-12 col-sm-12">
-					<div class="form-group">
-						<div class="col-xs-6 col-sm-2 control-label no-padding-right">
-							สิ้นสุดภาระผูกพันวันที่ :
-						</div>
-						<div class="col-xs-12 col-sm-2">
-							<div class="input-group">
-								<input type="text" class="form-control" data-provide="datepicker" data-date-language="th-th" value="30/09/2560">
-								<span class="input-group-addon"><i class="fa fa-calendar"></i></span>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="clearfix"></div>
-				<div class="col-xs-12 col-sm-12">
-					<div class="form-group">
-						<div class="col-xs-6 col-sm-2 control-label no-padding-right">
-							มูลค่าสัญญา รวมภาษีมูลค่าเพิ่ม<span class="red">*</span> :
-						</div>
-						<div class="col-xs-12 col-sm-2">
-							<div class="input-group">
-								<input type="text" class="form-control right number">
-								<span class="input-group-addon">บาท</span>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="clearfix"></div>
-				<div class="col-xs-12 col-sm-12">
-					<div class="form-group">
-						<div class="col-xs-6 col-sm-2 control-label no-padding-right">
-							จำนวนงวดงาน<span class="red">*</span> :
-						</div>
-						<div class="col-xs-12 col-sm-2">
-							<div class="input-group">
-								<input type="text" class="form-control right number" value="4">
-								<span class="input-group-addon">งวด</span>
-							</div>
-						</div>
-						<div class="col-xs-6 col-sm-2 control-label no-padding-right">
-							จำนวนการรับเงิน<span class="red">*</span> :
-						</div>
-						<div class="col-xs-12 col-sm-2">
-							<div class="input-group">
-								<input type="text" class="form-control right number" value="3">
-								<span class="input-group-addon">งวด</span>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="clearfix"></div>
-				<div class="col-xs-12 col-sm-12">
-					<div class="form-group">
-						<div class="col-xs-6 col-sm-2 control-label no-padding-right">
-							สถานะโครงการ :
-						</div>
-						<div class="col-xs-12 col-sm-2">
-							<div class="input-group">
-								<select class="select2">
-									<option value="">--กรุณาระบุ--</option>
-									<option value="" selected="selected">ดำเนินการ</option>
-									<option value="">ยกเลิก</option>
-								</select>
-							</div>
-						</div>
-						<div class="col-xs-6 col-sm-2 control-label no-padding-right" >
-							วันที่ยกเลิกสัญญา :
-						</div>
-						<div class="col-xs-12 col-sm-2">
-							<div class="input-group">
-								<input type="text" class="form-control" data-provide="datepicker" data-date-language="th-th">
-								<span class="input-group-addon"><i class="fa fa-calendar"></i></span>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="clearfix"></div>
-				<div class="col-xs-12 col-sm-12">
-					<div class="form-group">
-						<div class="col-xs-6 col-sm-2 control-label no-padding-right">
-							หมายเหตุ :
-						</div>
-						<div class="col-xs-12 col-sm-6">
-							<textarea class="form-control"></textarea>
-						</div>
-					</div>
-				</div>
-			</fieldset>
-		</div>
-	</div>
-	<div class="row">
-		<div class="col-sm-12">
-			<fieldset>
-				<legend>
-					ข้อมูลคู่สัญญา
-				</legend>
-				<div class="col-xs-12 col-sm-12">
-					<div class="form-group">
-						<div class="col-xs-6 col-sm-2 control-label no-padding-right">
-							เลขที่คุมสัญญา :
-						</div>
-						<div class="col-xs-6">
-
-						</div>
-					</div>
-				</div>
+					ข้อมูลบริษัท
+				</legend>			
 				<div class="col-xs-12 col-sm-12">
 					<div class="form-group">
 						<div class="col-xs-6 col-sm-2 control-label no-padding-right">
@@ -265,7 +16,7 @@
 								<option value="human">บุคคล</option>
 								<option value="con">กิจการค้าร่วม (Consortium)</option>
 								<option value="joint">กิจการร่วมค้า (Joint Venture)</option>
-								<option value="ltd" selected="selected">นิติบุคคล</option>
+								<option value="ltd">นิติบุคคล</option>
 								<option value="ltde">นิติบุคคลต่างประเทศ</option>
 							</select>
 						</div>
@@ -310,7 +61,7 @@
 							</div>
 							<div class="col-xs-6 col-sm-2">
 								<div class="input-group">
-									<input type="text" class="form-control right number" value="6364125963132">
+									<input type="text" class="form-control right number">
 									<span class="input-group-btn">
 										<button class="btn btn-sm" type="button">
 											<i class="fa fa-search"></i>
@@ -325,7 +76,7 @@
 								ชื่อ :
 							</div>
 							<div class="col-xs-12 col-sm-6">
-								<input type="text" class="form-control" value="บริษัท ทดสอบ จำกัด">
+								<input type="text" class="form-control">
 							</div>
 						</div>
 					</div>
@@ -335,7 +86,7 @@
 								ที่อยู่ :
 							</div>
 							<div class="col-xs-12 col-sm-6">
-								<input type="text" class="form-control" value="211 ม.5 ต.มหาสวัสดิ์ อ.บางกรวย จ.นนทบุรี 11130">
+								<input type="text" class="form-control">
 							</div>
 						</div>
 					</div>
@@ -345,13 +96,13 @@
 								เบอร์โทรศัพท์ :
 							</div>
 							<div class="col-xs-12 col-sm-2">
-								<input type="text" class="form-control" value="023789634">
+								<input type="text" class="form-control">
 							</div>
 							<div class="col-xs-6 col-sm-2 control-label no-padding-right">
 								อีเมล์ :
 							</div>
 							<div class="col-xs-12 col-sm-2">
-								<input type="email" class="form-control" value="test@test.co.th">
+								<input type="email" class="form-control">
 							</div>
 						</div>
 					</div>
@@ -363,18 +114,18 @@
 							<div class="col-xs-12 col-sm-5">
 								<div class="input-group">
 									<span class="input-group-addon">วันที่</span>
-									<input type="text" class="form-control center" style="width:40px;" value="1">
+									<input type="text" class="form-control center" style="width:40px;">
 									<span class="input-group-addon">เดือน</span>
 									<select class="form-control" style="width:60px;">
-										<option value="" selected="selected">ม.ค.</option>
+										<option value="">ม.ค.</option>
 										<option value="">ก.พ.</option>
 									</select>
 									<span class="input-group-addon">ถึง</span>
 									<span class="input-group-addon">วันที่</span>
-									<input type="text" class="form-control center" style="width:40px;" value="31">
+									<input type="text" class="form-control center" style="width:40px;">
 									<span class="input-group-addon">เดือน</span>
 									<select class="form-control" style="width:60px;">
-										<option value="" selected="selected">ธ.ค.</option>
+										<option value="">ธ.ค.</option>
 									</select>
 								</div>
 							</div>

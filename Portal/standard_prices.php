@@ -25,7 +25,7 @@
           <div class="space space-8"></div>
           <div class="row">
             <div class="col-sm-12">
-              <label for="search">รายการ</label>
+              <label for="search">เลขที่โครงการ/รายการ</label>
               <input type="text" name="search" value="" placeholder="" class="form-control">
             </div>
           </div>

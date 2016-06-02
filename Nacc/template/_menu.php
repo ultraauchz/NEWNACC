@@ -74,6 +74,10 @@
 
 				<ul class="submenu">
 					<li class="hover">
+						<a href="company"> <i class="menu-icon fa fa-caret-right"></i> ข้อมูลบริษัท </a>
+						<b class="arrow"></b>
+					</li>
+					<li class="hover">
 						<a href="contracts"> <i class="menu-icon fa fa-caret-right"></i> ข้อมูลคู่สัญญา </a>
 						<b class="arrow"></b>
 					</li>

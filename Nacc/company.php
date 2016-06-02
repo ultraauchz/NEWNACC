@@ -1,7 +1,10 @@
 <?php
-$current_page = 'unblacklists';
-$current_menu = 'incomes';
+$current_page = 'company';
+$current_menu = 'contracts';
 switch(@$_GET['mode']) {
+    case 'result' :
+        $action = 'ผลการบันทึก';
+        break;
     case 'view' :
         $action = 'รายละเอียดรายการ';
         break;
@@ -52,17 +55,17 @@ switch(@$_GET['mode']) {
 						<ul class="breadcrumb">
 							<li class="">
 								<i class="ace-icon fa fa-university university-icon"></i>
-								บัญชีรายรับรายจ่าย
+								คู่สัญญา
 							</li>
 							<li class="active">
-								ข้อมูลการขึ้น - ปลดแบล้คลิสต์คู่สัญญา
+								ข้อมูลคู่สัญญา
 							</li>
 						</ul>
 					</div>
           -->
 					<div class="space space-4"></div>
 					<div class="page-header">
-						<h1> ข้อมูลการปลดทะเบียนแบล้คลิสต์คู่สัญญา
+						<h1> <i class="menu-icon fa fa-pencil-square-o"></i> คู่สัญญา <i class="ace-icon fa fa-angle-right"></i> ข้อมูลบริษัท
 						    <?php if(@$action!=''):?>
 						    <small> <i class="ace-icon fa fa-angle-double-right"></i> <?php echo $action; ?></small>
 						    <?php endif;?>
@@ -71,17 +74,14 @@ switch(@$_GET['mode']) {
 					<div class="row">
 						<div class="col-xs-12">
 							<!-- PAGE CONTENT BEGINS -->
-              <?php
+							<?php
                             switch(@$_GET['mode']) {
-                                case 'view' :
+                                case 'result' :
+                                    require_once 'modules/'.$current_page.'/result.php';
+                                    break;
+                                case 'edit' :
                                     require_once 'modules/'.$current_page.'/form.php';
                                     break;
-                                case 'print_docno' :
-                                        require_once 'modules/'.$current_page.'/print_docno.php';
-                                        break;
-                                case 'input_docno' :
-                                        require_once 'modules/'.$current_page.'/input_docno.php';
-                                        break;
                                 case 'new' :
                                     require_once 'modules/'.$current_page.'/form.php';
                                     break;

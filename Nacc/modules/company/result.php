@@ -284,11 +284,6 @@
 				<i class="ace-icon fa fa-undo bigger-110"></i>
 				กลับไปหน้ารายการ
 			</button> </a>
-			<a href="<?php echo $current_page; ?>" target="_blank">
-			<button class="btn btn-primary" type="button">
-				<i class="ace-icon fa fa-print"></i>
-				พิมพ์ข้อมูลสัญญา
-			</button> </a>
 		</div>
 	</div>
 	</fieldset>

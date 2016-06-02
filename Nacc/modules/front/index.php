@@ -1,5 +1,8 @@
 <ul class="nav nav-tabs" id="recent-tab">
 	<li class="active">
+		<a data-toggle="tab" href="#currenttask" aria-expanded="true">สรุปงานของเจ้าหน้าที่</a>
+	</li>
+	<li class="">
 		<a data-toggle="tab" href="#pageone" aria-expanded="true">สรุปข้อมูลแผนประจำปีและข้อมูลราคากลาง</a>
 	</li>
 	<li class="">
@@ -11,7 +14,52 @@
 
 </ul>
 <div class="tab-content">
-<div id="pageone" class="tab-pane active row" style="padding-left:10px;padding-right:10px;">
+	<div id="currenttask" class="tab-pane active row" style="padding-left:10px;padding-right:10px;">
+		<fieldset>
+		<legend>ข้อมูลราคากลางที่รับผิดชอบในการตรวจสอบ</legend>
+		<div class="col-sm-8">
+		<table class="table table-bordered">
+			<thead>
+			<tr>
+				<th>จำนวนรวม</th>
+				<th>อยู่ในระหว่างการตรวจสอบ</th>
+				<th>ตรวจสอบแล้ว ถูกต้อง</th>
+				<th>ตรวจสอบแล้ว ไม่ถูกต้อง</th>
+			</tr>
+			</thead>
+			<tr>
+				<td class="right">500</td>
+				<td class="right">10</td>
+				<td class="right">488</td>
+				<td class="right">2</td>
+			</tr>
+		</table>
+		</div>
+	</fieldset>
+	<br>
+	<fieldset>
+		<legend>ข้อมูลบัญชีรายรับรายจ่ายที่รับผิดชอบในการตรวจสอบ</legend>
+		<div class="col-sm-8">
+		<table class="table table-bordered">
+			<thead>
+			<tr>
+				<th>จำนวนรวม</th>
+				<th>อยู่ในระหว่างการตรวจสอบ</th>
+				<th>ตรวจสอบแล้ว ถูกต้อง</th>
+				<th>ตรวจสอบแล้ว ไม่ถูกต้อง</th>
+			</tr>
+			</thead>
+			<tr>
+				<td class="right">500</td>
+				<td class="right">10</td>
+				<td class="right">488</td>
+				<td class="right">2</td>
+			</tr>
+		</table>
+		</div>
+	</fieldset>
+	</div>
+<div id="pageone" class="tab-pane row" style="padding-left:10px;padding-right:10px;">
 <fieldset>
 	<legend>ข้อมูลแผนประจำปี</legend>
 	<div class="col-sm-5">

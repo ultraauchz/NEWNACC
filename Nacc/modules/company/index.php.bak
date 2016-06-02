@@ -17,53 +17,30 @@
 									<option value="">แสดงทั้งหมด</option>
 									<option value="">รอการตรวจสอบ</option>
 									<option value="">อยู่ในระหว่างการตรวจสอบ</option>
-									<option value="">คืนเรื่อง</option>
-									<option value="">ยื่นแล้ว</option>
 									<option value="">ตรวจสอบแล้ว ถูกต้องครบถ้วนในสาระสำคัญ</option>
 									<option value="">ตรวจสอบแล้ว รอการแก้ไข</option>
 								</select>
 							</div>
 							<div class="col-sm-3">
-                    <label for="search">ปีปฏิทิน</label>
-                    <select name="budget_year" class="form-control">
-                        <option value="">แสดงทั้งหมด</option>
-                        <option value="">2559</option>
-                        <option value="">2558</option>
-                        <option value="">2557</option>
-                    </select>
-                </div>
-								<div class="col-sm-3">
-									<label for="search">เลขที่สัญญา/เลขคุมสัญญา</label>
-									<input type="text" class="form-control">
-								</div>
-						</div>
-						<div class="space space-8"></div>
-						<div class="row">
-							<div class="col-sm-3">
-								<label for="search">เลขประจำตัวผู้เสียภาษี</label>
-								<input type="text" class="form-control">
-							</div>
-							<div class="col-sm-3">
-								<label for="search">ชื่อคู่สัญญา</label>
-								<input type="text" class="form-control">
-							</div>
+                                <label for="search">ปีปฏิทิน</label>
+                                <select name="budget_year" class="form-control">
+                                    <option value="">แสดงทั้งหมด</option>
+                                    <option value="">2559</option>
+                                    <option value="">2558</option>
+                                    <option value="">2557</option>
+                                </select>
+                            </div>
 						</div>
 						<div class="row">
 							<div class="col-sm-3">
 								<label for="search">กระทรวง</label>
-								<select name="min_code" class="select2">
+								<select name="min_code" class="form-control">
 									<option value="">แสดงทั้งหมด</option>
 								</select>
 							</div>
 							<div class="col-sm-3">
 								<label for="search">กรม</label>
-								<select name="sec_code" class="select2">
-									<option value="">แสดงทั้งหมด</option>
-								</select>
-							</div>
-							<div class="col-sm-3">
-								<label for="search">หน่วยงาน</label>
-								<select name="sec_code" class="select2">
+								<select name="sec_code" class="form-control">
 									<option value="">แสดงทั้งหมด</option>
 								</select>
 							</div>
@@ -71,7 +48,7 @@
 						<div class="space space-8"></div>
 						<div class="row">
 							<div class="col-sm-4">
-								<label for="search">มูลค่าสัญญา (ตั้งแต่ 2 ล้านบาท)</label>
+								<label for="search">มูลค่าสัญญา (ขั้นต่ำ 2 ล้านบาท)</label>
 								<div class="input-group">
 									<span class="input-group-addon">ระหว่าง</span>
 									<input type="text" name="l_budget" value="" placeholder="" class="form-control number">
@@ -94,7 +71,7 @@
 						<div class="space space-8"></div>
 						<div class="row">
 							<div class="col-sm-12">
-								<label for="search">ชื่อโครงการ/ชื่อสัญญา</label>
+								<label for="search">ชื่อโครงการ</label>
 								<input type="text" name="search" value="" placeholder="ชื่อโครงการ" class="form-control">
 							</div>
 						</div>
@@ -149,58 +126,55 @@
 			<tr role="row">
 				<th class="center sorting_disabled " rowspan="1" colspan="1">ลำดับ</th>
 				<th>เลขที่สัญญา</th>
-				<th>เลขคุมสัญญา</th>
-				<th>หน่วยงาน</th>
+				<th>เลขที่คุมสัญญา</th>                
 				<th >คู่สัญญา</th>
-				<th>โครงการ</th>
-				<th>มูลค่าสัญญา</th>
-				<th>วันสิ้นสุดรอบระยะเวลาบัญชี</th>
-				<th>วันที่ยื่น</th>
-				<th>รอบการยื่น</th>
-				<th>สถานะการยื่น</th>
-				<th>สถานะการตรวจสอบ</th>
-				<th></th>
+				<th class="sorting_disabled" tabindex="0" aria-controls="dynamic-table" rowspan="1" colspan="1" >โครงการ</th>
+				<th class="sorting_disabled" tabindex="0" aria-controls="dynamic-table" rowspan="1" colspan="1" >มูลค่าสัญญา</th>
+				<th class="sorting_disabled " tabindex="0" aria-controls="dynamic-table" rowspan="1">ระยะเวลาสัญญา</th>
+				<th class="sorting_disabled " tabindex="0" aria-controls="dynamic-table" rowspan="1">สิ้นสุดภาระผูกพันวันที่</th>
+				<th class="sorting_disabled" rowspan="1" colspan="1" aria-label=""></th>
 			</tr>
 		</thead>
 
 		<tbody>
 			<tr role="row" class="odd">
 				<td class="center " >1</td>
-				<td class="">31/2557 </td>
-				<td class="">N570113812</td>
-				<td class="">สำนักงานปลัดกระทรวงการคลัง กระทรวงการคลัง</td>
+				<td class="">31/2558 </td>
+				<td class="">N570113812</td>                                
 				<td class="">บริษัท เอสวีโอเอ จำกัด (มหาชน) </td>
 				<td>โครงการพัฒนาโครงสร้างพื้นฐานด้านเครือข่ายระยะที่ ๒ และโอนย้ายห้องแม่ข่ายศูนย์เทคโนโลยีสารสนเทศ</td>
 				<td>33,813,605.00</td>
-				<td class="center ">31/01</td>
-				<td class="">09/07/2559</td>
-				<td class="">ยื่นปกติ ครั้งที่ 1/2559</td>
-				<td class=""><span class="label label-sm label-danger">เกินกำหนด</span><br>(10 วัน)</td>
-				<td class=""><span class="label label-sm label-blue">รอการตรวจสอบ</span></td>
+				<td class="">เริ่ม 01/10/2558 <br>สิ้นสุด 30/09/2559</td>
+				<td class="">30/10/2560</td>
 				<td nowrap="nowrap">
+				<div class="hidden-sm hidden-xs action-buttons">
 					<a class="blue" href="<?php echo $current_page; ?>?mode=view"> <i class="ace-icon fa fa-search-plus bigger-130"></i> </a>
+
 					<a class="green" href="<?php echo $current_page; ?>?mode=edit"> <i class="ace-icon fa fa-pencil bigger-130"></i> </a>
+
 					<a class="red btn_delete" href="<?php echo $current_page; ?>?mode=delete"> <i class="ace-icon fa fa-trash-o bigger-130"></i> </a>
-				</td>
-			</tr>
-			<tr role="row" class="event">
-				<td class="center " >2</td>
-				<td class="">31/2557 </td>
-				<td class="">N570113812</td>
-				<td class="">สำนักงานปลัดกระทรวงการคลัง กระทรวงการคลัง</td>
-				<td class="">บริษัท เอสวีโอเอ จำกัด (มหาชน) </td>
-				<td>โครงการพัฒนาโครงสร้างพื้นฐานด้านเครือข่ายระยะที่ ๒ และโอนย้ายห้องแม่ข่ายศูนย์เทคโนโลยีสารสนเทศ</td>
-				<td>33,813,605.00</td>
-				<td class="center ">31/01</td>
-				<td class="">15/02/2558</td>
-				<td class="">ยื่นปกติ ครั้งที่ 1/2558</td>
-				<td class=""><span class="label label-sm label-success">ปกติ</span><br></td>
-				<td class=""><span class="label label-sm label-success">ตรวจสอบแล้ว ถูกต้องครบถ้วนในสาระสำคัญ</span></td>
-				<td nowrap="nowrap">
-					<a class="blue" href="<?php echo $current_page; ?>?mode=view"> <i class="ace-icon fa fa-search-plus bigger-130"></i> </a>
-					<a class="green" href="<?php echo $current_page; ?>?mode=edit"> <i class="ace-icon fa fa-pencil bigger-130"></i> </a>
-					<a class="red btn_delete" href="<?php echo $current_page; ?>?mode=delete"> <i class="ace-icon fa fa-trash-o bigger-130"></i> </a>
-				</td>
+				</div>
+				<div class="hidden-md hidden-lg">
+					<div class="inline pos-rel">
+						<button class="btn btn-minier btn-yellow dropdown-toggle" data-toggle="dropdown" data-position="auto">
+							<i class="ace-icon fa fa-caret-down icon-only bigger-120"></i>
+						</button>
+
+						<ul class="dropdown-menu dropdown-only-icon dropdown-yellow dropdown-menu-right dropdown-caret dropdown-close">
+							<li>
+								<a href="<?php echo $current_page; ?>?mode=view" class="tooltip-info" data-rel="tooltip" title="" data-original-title="View"> <span class="blue"> <i class="ace-icon fa fa-search-plus bigger-120"></i> </span> </a>
+							</li>
+
+							<li>
+								<a href="<?php echo $current_page; ?>?mode=edit" class="tooltip-success" data-rel="tooltip" title="" data-original-title="Edit"> <span class="green"> <i class="ace-icon fa fa-pencil-square-o bigger-120"></i> </span> </a>
+							</li>
+
+							<li>
+								<a href="<?php echo $current_page; ?>?mode=delete" class="tooltip-error" data-rel="tooltip" title="" data-original-title="Delete"> <span class="red"> <i class="ace-icon fa fa-trash-o bigger-120"></i> </span> </a>
+							</li>
+						</ul>
+					</div>
+				</div></td>
 			</tr>
 		</tbody>
 	</table>

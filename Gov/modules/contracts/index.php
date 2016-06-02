@@ -85,7 +85,7 @@
 								</div>
 							</div>
 							<div class="col-sm-6">
-								<label for="search">วันที่ยื่น</label>
+								<label for="search">วันที่ลงนามในสัญญา</label>
 								<div class="input-group">
 									<span class="input-group-addon">ระหว่าง</span>
 									<input type="text" name="start_date" value="" placeholder="เริ่ม e.g. 01/01/2559" class="form-control" data-provide="datepicker" data-date-language="th-th">
@@ -202,7 +202,7 @@
 				<td class="">เริ่ม 01/10/2558 <br>สิ้นสุด 30/09/2559</td>
 				<td class="">30/10/2560</td>
 				<td nowrap="nowrap">
-					<a class="blue" href="<?php echo $current_page; ?>?mode=view"> <i class="ace-icon fa fa-search-plus bigger-130"></i> </a>					
+					<a class="blue" href="<?php echo $current_page; ?>?mode=view"> <i class="ace-icon fa fa-search-plus bigger-130"></i> </a>
 				</td>
 			</tr>
 		</tbody>
