@@ -112,6 +112,20 @@
     <td><textarea class="form-control" rows="4"></textarea></td>
   </tr>
   <tr>
+    <th class="right">เอกสารแนบ</th>
+    <td>
+      <a name="btn_new_file" class="btn btn-sm btn-success"> เพิ่มรายการเอกสารแนบ </a>
+			<table style="margin-bottom:0px!important;" class="table table-striped table-bordered">
+				<tr>
+					<td width="30" valign="middle" align="center">1</td>
+					<td>
+					<input type="file" class="btn btn-sm" accept=".pdf,.zip">
+					</td>
+				</tr>
+			</table>
+    </td>
+  </tr>
+  <tr>
     <th class="right">กรอกรหัสความปลอดภัย</th>
     <td>
       <div class="col-sm-2" style="padding-left:0px;">

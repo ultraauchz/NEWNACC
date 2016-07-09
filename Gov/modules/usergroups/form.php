@@ -59,18 +59,8 @@
 								ลบ </td>
 							</tr>
 							<tr>
-								<td>นำเข้าข้อมูลแผนประจำปี</td>
-								<td>
-								<input type="checkbox">
-								ดู
-								<input type="checkbox">
-								นำเข้า
-								<input type="checkbox">
-								นำเข้าทันที </td>
-							</tr>
-							<tr>
-                                <th colspan="2">ราคากลาง</th>
-                            </tr>
+                  <th colspan="2">ราคากลาง</th>
+              </tr>
 							<tr>
 								<td>ข้อมูลราคากลาง</td>
 								<td>
@@ -84,24 +74,8 @@
 								ลบ </td>
 							</tr>
 							<tr>
-								<td>ตรวจสอบข้อมูลราคากลาง</td>
-								<td>
-								<input type="checkbox">
-								ดู
-								<input type="checkbox">
-								แก้ไข
-								<input type="checkbox">
-								ลบ </td>
-							</tr>
-							<tr>
-								<td>ประวัติการนำเข้าข้อมูลราคากลาง</td>
-								<td>
-								<input type="checkbox">
-								ดู </td>
-							</tr>
-							<tr>
-                                <th colspan="2">คู่สัญญา</th>
-                            </tr>
+                <th colspan="2">คู่สัญญา</th>
+              </tr>
 							<tr>
 								<td>ข้อมูลคู่สัญญา</td>
 								<td>
@@ -113,6 +87,19 @@
 								แก้ไข
 								<input type="checkbox">
 								ลบ </td>
+							</tr>
+							<tr>
+									<th colspan="2">นำเข้าข้อมูล</th>
+							</tr>
+							<tr>
+								<td>นำเข้าข้อมูลแผนประจำปี</td>
+								<td>
+								<input type="checkbox">
+								ดู
+								<input type="checkbox">
+								นำเข้า
+								<input type="checkbox">
+								นำเข้าทันที </td>
 							</tr>
 							<tr>
 								<td>นำเข้าข้อมูลคู่สัญญาจากระบบ e-GP</td>
@@ -135,49 +122,8 @@
 								นำเข้าทันที </td>
 							</tr>
 							<tr>
-								<td>ประวัติการส่งออกข้อมูลคู่สัญญาให้กรมสรรพากร</td>
-								<td>
-								<input type="checkbox">
-								ดู </td>
-							</tr>
-							<tr>
-                                <th colspan="2">บัญชีรายรับรายจ่าย</th>
-                            </tr>
-							<tr>
-								<td>ตรวจสอบบัญชีรายรับรายจ่าย</td>
-								<td>
-								<input type="checkbox">
-								ดู
-								<input type="checkbox">
-								แก้ไข</td>
-							</tr>
-							<tr>
-								<td>ข้อมูลคู่สัญญาที่ยังไม่มีการยื่นบัญชีรายรับรายจ่าย</td>
-								<td>
-								<input type="checkbox">
-								ดู </td>
-							</tr>
-							<tr>
-								<td>ข้อมูลการขึ้น - ปลด แบล็คลิสต์คู่สัญญา</td>
-								<td>
-								<input type="checkbox">
-								ดู
-								<input type="checkbox">
-								เพิ่ม
-								<input type="checkbox">
-								แก้ไข
-								<input type="checkbox">
-								ลบ </td>
-							</tr>
-							<tr>
-								<td>ประวัติการนำเข้าข้อมูลบัญชีรายรับรายจ่าย</td>
-								<td>
-								<input type="checkbox">
-								ดู </td>
-							</tr>
-							<tr>
-                                <th colspan="2">รายงาน</th>
-                            </tr>
+                  <th colspan="2">รายงาน</th>
+              </tr>
 							<tr>
 								<td>รายงานแผนประจำปี</td>
 								<td>
@@ -192,12 +138,6 @@
 							</tr>
 							<tr>
 								<td>รายงานข้อมูลคู่สัญญา</td>
-								<td>
-								<input type="checkbox">
-								ดู </td>
-							</tr>
-							<tr>
-								<td>รายงานข้อมูลบัญชีรายรับรายจ่าย</td>
 								<td>
 								<input type="checkbox">
 								ดู </td>

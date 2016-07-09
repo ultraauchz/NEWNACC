@@ -1,102 +1,53 @@
 <form class="form-horizontal" role="form" enctype="multipart/form-data" action="plans">
 	<div class="form-group">
-		<label class="col-sm-3 control-label no-padding-right">เวลาที่เริ่มนำเข้าข้อมูลราคากลาง</label>
-		<div class="col-xs-6 col-sm-2 col-lg-1">
+		<label class="col-sm-3 control-label no-padding-right">เวลาที่เริ่มนำเข้าข้อมูลแผนประจำปี</label>
+		<div class="col-xs-6 col-sm-2 col-lg-2">
 			<div class="input-group bootstrap-timepicker">
-				<input id="timepicker1" type="text" class="form-control" value="00:50:00" />
+				<input id="timepicker1" type="text" class="form-control right" value="00:10:00" />
 				<span class="input-group-addon"> <i class="fa fa-clock-o bigger-110"></i> </span>
 			</div>
 		</div>
 	</div>
 	<div class="form-group">
-		<label class="col-sm-3 control-label no-padding-right">อีเมล์สำหรับรับผลการนำเข้าข้อมูลราคากลาง</label>
-		<div class="col-xs-6 col-sm-6 col-lg-2">
+		<label class="col-sm-3 control-label no-padding-right">อีเมล์สำหรับรับผลการนำเข้าข้อมูลแผนประจำปี</label>
+		<div class="col-xs-6 col-sm-6 col-lg-5">
 			<textarea class="form-control"></textarea>
 		</div>
 	</div>
 	<div class="form-group">
 		<label class="col-sm-3 control-label no-padding-right">เวลาที่เริ่มนำเข้าข้อมูลคู่สัญญา e-GP</label>
-		<div class="col-xs-6 col-sm-2 col-lg-1">
+		<div class="col-xs-6 col-sm-2 col-lg-2">
 			<div class="input-group bootstrap-timepicker">
-				<input id="timepicker1" type="text" class="form-control" value="00:10:00" />
+				<input id="timepicker1" type="text" class="form-control right" value="00:10:00" />
 				<span class="input-group-addon"> <i class="fa fa-clock-o bigger-110"></i> </span>
 			</div>
 		</div>
 	</div>
 	<div class="form-group">
 		<label class="col-sm-3 control-label no-padding-right">อีเมล์สำหรับรับผลการนำเข้าข้อมูลคู่สัญญา e-GP</label>
-		<div class="col-xs-6 col-sm-6 col-lg-2">
+		<div class="col-xs-6 col-sm-6 col-lg-5">
 			<textarea class="form-control"></textarea>
 		</div>
 	</div>
 	<div class="form-group">
 		<label class="col-sm-3 control-label no-padding-right">เวลาที่เริ่มนำเข้าข้อมูลคู่สัญญาจาก สปสช.</label>
-		<div class="col-xs-6 col-sm-2 col-lg-1">
+		<div class="col-xs-6 col-sm-2 col-lg-2">
 			<div class="input-group bootstrap-timepicker">
-				<input id="timepicker1" type="text" class="form-control" value="00:20:00" />
+				<input id="timepicker1" type="text" class="form-control right" value="00:20:00" />
 				<span class="input-group-addon"> <i class="fa fa-clock-o bigger-110"></i> </span>
 			</div>
 		</div>
 	</div>
 	<div class="form-group">
 		<label class="col-sm-3 control-label no-padding-right">อีเมล์สำหรับรับผลการนำเข้าข้อมูลคู่สัญญาจาก สปสช.</label>
-		<div class="col-xs-6 col-sm-6 col-lg-2">
-			<textarea class="form-control"></textarea>
-		</div>
-	</div>
-	<div class="form-group">
-		<label class="col-sm-3 control-label no-padding-right">เวลาที่เริ่มส่งออกข้อมูลคู่สัญญาให้กรมสรรพากร</label>
-		<div class="col-xs-6 col-sm-2 col-lg-1">
-			<div class="input-group bootstrap-timepicker">
-				<input id="timepicker1" type="text" class="form-control" value="00:50:00" />
-				<span class="input-group-addon"> <i class="fa fa-clock-o bigger-110"></i> </span>
-			</div>
-		</div>
-	</div>
-	<div class="form-group">
-		<label class="col-sm-3 control-label no-padding-right">อีเมล์สำหรับรับผลการส่งออกข้อมูลคู่สัญญาให้กรมสรรพากร</label>
-		<div class="col-xs-6 col-sm-6 col-lg-2">
+		<div class="col-xs-6 col-sm-6 col-lg-5">
 			<textarea class="form-control"></textarea>
 		</div>
 	</div>
 	<div class="form-group">
 		<label class="col-sm-3 control-label no-padding-right">มูลค่าสัญญาขั้นต่ำที่ยินยอมให้นำเข้า</label>
-		<div class="col-xs-6 col-sm-2 col-lg-1">
+		<div class="col-xs-6 col-sm-2 col-lg-2">
 			<input type="text" class="form-control right number" value="2,000,000">
-		</div>
-	</div>
-	<div class="form-group">
-		<label class="col-sm-3 control-label no-padding-right">สถานะแจ้งเตือนที่ไม่ยื่นบัญชีรายรับรายจ่าย สำหรับบุคคลธรรมดา</label>
-		<div class="col-xs-6 col-sm-7 col-lg-4">
-			
-			<div class="input-group">
-				<span class="input-group-addon">ปกติ</span>
-				<input type="text" class="form-control right number" value="40">
-				<span class="input-group-addon">วัน</span>
-				<span class="input-group-addon">เฝ้าระวัง</span>
-				<input type="text" class="form-control right number" value="60">
-				<span class="input-group-addon">วัน</span>
-				<span class="input-group-addon">เกินกำหนด</span>
-				<input type="text" class="form-control right number" value="90">
-				<span class="input-group-addon">วัน</span>
-			</div>
-		</div>
-	</div>
-	<div class="form-group">
-		<label class="col-sm-3 control-label no-padding-right">สถานะแจ้งเตือนที่ไม่ยื่นบัญชีรายรับรายจ่าย สำหรับนิติบุคคล</label>
-		<div class="col-xs-6 col-sm-7 col-lg-4">
-			
-			<div class="input-group">
-				<span class="input-group-addon">ปกติ</span>
-				<input type="text" class="form-control right number" value="80">
-				<span class="input-group-addon">วัน</span>
-				<span class="input-group-addon">เฝ้าระวัง</span>
-				<input type="text" class="form-control right number" value="100">
-				<span class="input-group-addon">วัน</span>
-				<span class="input-group-addon">เกินกำหนด</span>
-				<input type="text" class="form-control right number" value="150">
-				<span class="input-group-addon">วัน</span>
-			</div>
 		</div>
 	</div>
 	<hr>

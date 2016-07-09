@@ -17,8 +17,7 @@
 									<option value="">แสดงทั้งหมด</option>
 									<option value="">รอการตรวจสอบ</option>
 									<option value="">อยู่ในระหว่างการตรวจสอบ</option>
-									<option value="">ตรวจสอบแล้ว ถูกต้อง</option>
-									<option value="">ตรวจสอบแล้ว ไม่ถูกต้อง</option>
+									<option value="">ตรวจสอบแล้ว</option>									
 								</select>
 							</div>
 							<div class="col-sm-3">

@@ -1,8 +1,8 @@
 <form class="form-horizontal" role="form" enctype="multipart/form-data" action="plans">
 	<div class="form-group">
 		<label class="col-sm-3 control-label no-padding-right">รหัสผู้ใช้</label>
-		<div class="col-sm-9">
-			<input type="text" name="project_id" value="" class="col-xs-12 col-sm-5" readonly="true">
+		<div class="col-xs-3 col-sm-3">
+			<input type="text" name="project_id" value="" class="form-control" readonly="true">
 		</div>
 	</div>
 	<div class="form-group">
@@ -24,27 +24,27 @@
 		</div>
 	</div>
 	<div class="form-group">
-		<label class="col-sm-3 control-label no-padding-right">กระทรวง<span class="red">*</span></label>
+		<label class="col-sm-3 control-label no-padding-right">กระทรวง</label>
 		<div class="col-sm-3">
-			<select id="min_code" name="min_code" class="form-control select2">
+			<select id="min_code" name="min_code" class="select2">
 				<option value="">--กรุณาระบุ--</option>
-				<option value="1">กระทรวงกลาโหม</option><option value="2">กระทรวงการคลัง</option><option value="3">กระทรวงการต่างประเทศ</option><option value="4">กระทรวงการท่องเที่ยวและกีฬา</option><option value="5">กระทรวงการพัฒนาสังคมและความมั่นคงของมนุษย์</option><option value="6">กระทรวงเกษตรและสหกรณ์</option><option value="7">การทรวงคมนาคม</option><option value="8">กระทรวงทรัพยากรธรรมชาติและสิ่งแวดล้อม</option><option value="9">กระทรวงเทคโนโลยีสารสนเทศและการสื่อสาร</option><option value="10">กระทรวงพลังงาน</option><option value="11">กระทรวงพาณิชย์</option><option value="12">กระทรวงมหาดไทย</option><option value="13">กระทรวงยุติธรรม</option><option value="14">กระทรวงแรงงาน</option><option value="15">กระทรวงวัฒนธรรม</option><option value="16">กระทรวงวิทยาศาสตร์และเทคโนโลยี</option><option value="17">กระทรวงศึกษาธิการ</option><option value="18">กระทรวงสาธารสุข</option><option value="19">กระทรวงอุตสาหกรรม</option>
+				<option value="1">กระทรวงแรงงาน</option>
 			</select>
 		</div>
 	</div>
 	<div class="form-group">
-		<label class="col-sm-3 control-label no-padding-right">กรม<span class="red">*</span></label>
+		<label class="col-sm-3 control-label no-padding-right">กรม</label>
 		<div class="col-sm-3">
-			<select id="min_code" name="min_code" class="form-control select2">
+			<select id="agc_code" name="agc_code" class="select2">
 				<option value="">--กรุณาระบุ--</option>
-				<option value="1">สำนักงานปลัดกระทรวง</option>
+				<option value="1">กรมพัฒนาฝีมือแรงงาน</option>
 			</select>
 		</div>
 	</div>
 	<div class="form-group">
 		<label class="col-sm-3 control-label no-padding-right">หน่วยงาน</label>
 		<div class="col-sm-3">
-			<select id="min_code" name="min_code" class="form-control select2">
+			<select id="office_code" name="office_code" class="select2">
 				<option value="">--กรุณาระบุ--</option>
 				<option value="1">ศูนย์เทคโนโลยีสารสนเทศ</option>
 			</select>
@@ -52,20 +52,20 @@
 	</div>
 	<div class="form-group">
 		<label class="col-sm-3 control-label no-padding-right">Username<span class="red">*</span></label>
-		<div class="col-sm-9">
-			<input type="text" class="col-sm-1">
+		<div class="col-xs-8 col-sm-2">
+			<input type="text" class="form-control">
 		</div>
 	</div>
 	<div class="form-group">
 		<label class="col-sm-3 control-label no-padding-right">รหัสผ่าน<span class="red">*</span></label>
-		<div class="col-sm-9">
-			<input type="password" class="col-sm-1">
+		<div class="col-xs-8 col-sm-2">
+			<input type="password" class="form-control">
 		</div>
 	</div>
 	<div class="form-group">
 		<label class="col-sm-3 control-label no-padding-right">ยืนยันรหัสผ่าน<span class="red">*</span></label>
-		<div class="col-sm-9">
-			<input type="password" class="col-sm-1">
+		<div class="col-xs-8 col-sm-2">
+			<input type="confirm_password" class="form-control">
 		</div>
 	</div>
 	<div class="form-group">
@@ -117,18 +117,8 @@
 								ลบ </td>
 							</tr>
 							<tr>
-								<td>นำเข้าข้อมูลแผนประจำปี</td>
-								<td>
-								<input type="checkbox">
-								ดู
-								<input type="checkbox">
-								นำเข้า
-								<input type="checkbox">
-								นำเข้าทันที </td>
-							</tr>
-							<tr>
-								<th colspan="2">ราคากลาง</th>
-							</tr>
+                  <th colspan="2">ราคากลาง</th>
+              </tr>
 							<tr>
 								<td>ข้อมูลราคากลาง</td>
 								<td>
@@ -142,24 +132,8 @@
 								ลบ </td>
 							</tr>
 							<tr>
-								<td>ตรวจสอบข้อมูลราคากลาง</td>
-								<td>
-								<input type="checkbox">
-								ดู
-								<input type="checkbox">
-								แก้ไข
-								<input type="checkbox">
-								ลบ </td>
-							</tr>
-							<tr>
-								<td>ประวัติการนำเข้าข้อมูลราคากลาง</td>
-								<td>
-								<input type="checkbox">
-								ดู </td>
-							</tr>
-							<tr>
-								<th colspan="2">คู่สัญญา</th>
-							</tr>
+                <th colspan="2">คู่สัญญา</th>
+              </tr>
 							<tr>
 								<td>ข้อมูลคู่สัญญา</td>
 								<td>
@@ -171,6 +145,19 @@
 								แก้ไข
 								<input type="checkbox">
 								ลบ </td>
+							</tr>
+							<tr>
+									<th colspan="2">นำเข้าข้อมูล</th>
+							</tr>
+							<tr>
+								<td>นำเข้าข้อมูลแผนประจำปี</td>
+								<td>
+								<input type="checkbox">
+								ดู
+								<input type="checkbox">
+								นำเข้า
+								<input type="checkbox">
+								นำเข้าทันที </td>
 							</tr>
 							<tr>
 								<td>นำเข้าข้อมูลคู่สัญญาจากระบบ e-GP</td>
@@ -193,49 +180,8 @@
 								นำเข้าทันที </td>
 							</tr>
 							<tr>
-								<td>ประวัติการส่งออกข้อมูลคู่สัญญาให้กรมสรรพากร</td>
-								<td>
-								<input type="checkbox">
-								ดู </td>
-							</tr>
-							<tr>
-								<th colspan="2">บัญชีรายรับรายจ่าย</th>
-							</tr>
-							<tr>
-								<td>ตรวจสอบบัญชีรายรับรายจ่าย</td>
-								<td>
-								<input type="checkbox">
-								ดู
-								<input type="checkbox">
-								แก้ไข</td>
-							</tr>
-							<tr>
-								<td>ข้อมูลคู่สัญญาที่ยังไม่มีการยื่นบัญชีรายรับรายจ่าย</td>
-								<td>
-								<input type="checkbox">
-								ดู </td>
-							</tr>
-							<tr>
-								<td>ข้อมูลการขึ้น - ปลด แบล็คลิสต์คู่สัญญา</td>
-								<td>
-								<input type="checkbox">
-								ดู
-								<input type="checkbox">
-								เพิ่ม
-								<input type="checkbox">
-								แก้ไข
-								<input type="checkbox">
-								ลบ </td>
-							</tr>
-							<tr>
-								<td>ประวัติการนำเข้าข้อมูลบัญชีรายรับรายจ่าย</td>
-								<td>
-								<input type="checkbox">
-								ดู </td>
-							</tr>
-							<tr>
-								<th colspan="2">รายงาน</th>
-							</tr>
+                  <th colspan="2">รายงาน</th>
+              </tr>
 							<tr>
 								<td>รายงานแผนประจำปี</td>
 								<td>
@@ -250,12 +196,6 @@
 							</tr>
 							<tr>
 								<td>รายงานข้อมูลคู่สัญญา</td>
-								<td>
-								<input type="checkbox">
-								ดู </td>
-							</tr>
-							<tr>
-								<td>รายงานข้อมูลบัญชีรายรับรายจ่าย</td>
 								<td>
 								<input type="checkbox">
 								ดู </td>
